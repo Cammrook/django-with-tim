@@ -3,6 +3,11 @@
         <title>{% block title %}Mark's Page{% endblock title %}</title>
     </head>
 <body>
+    <div class="sidebar">
+        <a href="/home">Home</a>
+        <a href="/create">Create</a>
+        <a href="/2">View</a>
+    </div>
     <div id="content", name="content", class="main">
         {% block content %}
         {% endblock content %}
